@@ -127,7 +127,8 @@ if __name__ == "__main__":
         print(resultados_herramienta)  # Mostrar resultados en pantalla
         resultados_combinados += f"\nResultados de {herramienta}:\n{resultados_herramienta}"  # Agregar resultados a la variable
     
-    informacion_dominio = obtener_informacion_dominio(dominio)
+    informacion_dominio = obtener_informacion_dominio(dominio) 
+    print("Creado por G0dsp")
     print("\nInformación de dominio:")
     print("\nLa información que aparece abajo tiene que ver con el dominio del que quieres info")
     print("Quizas comparten la misma IP, quizas estan emparentadas de alguna manera")
